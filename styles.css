@@ -1,0 +1,146 @@
+body{
+    min-height:100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    display:flex;
+    font-family: 'Roboto',sans-serif;
+    flex-direction:column;
+}
+
+.section-a, footer{
+    display:flex;
+    flex-direction:column;
+    max-width:100%;
+    background-color:#1f2937;
+}
+.header{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    margin:20px;
+}
+.header .logo {
+    font-size:18px;
+    color:#f9faf8;
+}
+.nav_links ul {
+    list-style-type:none;
+    display:flex;
+    gap:20px;
+    font-size:18px;
+    color:#e5e7eb;
+}
+.box-1 {
+    display:flex;
+    justify-content:space-around;
+}
+.box-1 h1{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight:900;
+}
+.box-1 p {
+    color:#e5e7eb;
+    font-size:18px;
+}
+.box-left{
+   flex-basis:500px;
+    margin:40px 40px
+}
+.Learn-more{
+    background-color:#3882f6 ;
+    color:white;
+    border-radius:5px;
+    padding:8px;
+    flex-basis:150px;
+    margin-top:30px;
+}
+.box-right img{
+    width:600px;
+    max-width:100%;
+    border-radius:15px;
+}
+.section-b {
+    display:flex;
+    flex-direction:column;
+}
+.title{
+    text-align:center;
+    font-size:38px;
+    color:#1f2937;
+    
+}
+.cards{
+    display:flex;
+    justify-content:center;
+}
+figure{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    
+}
+.cards img{
+    width:200px;
+    height:auto;
+    border-radius:5px;
+    border:3px #6565df solid;
+}
+.section-c{
+    display:flex;
+    background-color:#e5e7eb;
+    flex-direction:column;
+    
+}
+.box {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.box p{
+    flex-basis:800px;
+    font-size:36px;
+}
+.section-c h6 {
+    display:flex;
+    font-size:16px;
+    justify-content:space-evenly;
+    margin-left:500px;
+    margin-top:0px;
+}
+.section-d .call-box{
+    display:flex;
+    flex-direction:column;
+    background-color: #3882f6;
+    margin:40px 80px;
+    border-radius:8px;
+    align-items:flex-start;
+    padding:20px 200px;
+}
+.call-box h6{
+    font-size:large;
+    margin:2px 0px 2px 0px;
+}
+.call-box p{
+    margin-top:0px;
+    font-size:20px;
+}
+.button{
+    margin-left:400px;
+    height:30px;
+    width:auto;
+    border-radius:5px;
+    background-color: #3882f6;
+    color:black;
+    font-weight:800;
+    font-size:20px;
+}
+.footer{
+     background-color:#1f2937;;
+    color:white;
+    text-align:center;
+   text-align:center;
+}
+
